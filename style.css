@@ -1,0 +1,62 @@
+body {
+        background-color: #1A1A1A;
+        margin: 3% 8% 8% 8%;
+        padding: 1% 20% 5% 20%;
+}
+
+div {
+        margin: 5% 10% 10% 10%;
+        padding: 25px;
+        font-family: "Times New Roman", Georgia, serif;
+        color: white;
+        background: linear-gradient(#2E2E2E, #1A1A1A);
+        border-radius: 15px;
+}
+
+form {
+        background: linear-gradient(#2E2E2E, #1A1A1A);
+        border-radius: 15px;
+        font-family: "Times New Roman", Georgia, serif;
+        font-size: 14px;
+        color: white;
+        line-height: 18px;
+        border-radius: 10px;
+        padding: 20px;
+}
+
+textarea:focus, input:focus {
+        border: 4px solid #333;
+}
+
+
+input {
+  width: 150px;
+  right: 20px;
+  bottom: 20px;
+  background: #1A1A1A;
+  color: white;
+  font-family: "Times New Roman", Georgia, serif;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #333;
+}
+
+input:hover {
+        background: #fff;
+        color: #09C;
+        font-weight: bold;
+}
+
+
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display: block;
+}
+
+select {
+        padding: 4px;
+        font-size: 14px;
+        -webkit-appearance:none;
+         font-family: "Times New Roman", Georgia, serif;
+}
